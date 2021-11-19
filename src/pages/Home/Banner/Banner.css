@@ -1,0 +1,35 @@
+.display-title{
+    background-image:url(../../../images/sliderhome_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 400px;
+}
+.banner-title{
+    margin-left: -550px;
+    margin-top: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a3d46;
+    text-align:justify;
+}
+
+ /* media query responsive */
+  
+ @media (max-width:600px){
+     .display-title{
+
+     }
+     .banner-title img{
+         margin-left: 480px;
+     }
+     .title h1{
+         font-size:smaller;
+         margin-left: 550px;
+     }
+ }

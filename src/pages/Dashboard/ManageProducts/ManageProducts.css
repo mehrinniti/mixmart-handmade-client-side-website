@@ -1,0 +1,26 @@
+.allProduct-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px 0;
+}
+
+.single-allProduct{
+    border: 1px solid #e2aaa1;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .allProduct-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .allProduct-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

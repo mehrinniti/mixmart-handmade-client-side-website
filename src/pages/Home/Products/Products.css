@@ -1,0 +1,16 @@
+.product-bg{
+    background-image: url(../../../images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.heading-bg{
+    background-image: url(../../../images/heading_bkg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}

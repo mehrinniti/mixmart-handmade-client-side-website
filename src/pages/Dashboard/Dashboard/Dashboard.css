@@ -1,0 +1,8 @@
+.nested-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nested-nav a:hover{
+    color: #e2aaa1;
+}

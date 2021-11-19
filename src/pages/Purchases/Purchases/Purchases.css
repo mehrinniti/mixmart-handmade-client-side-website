@@ -1,0 +1,20 @@
+.input-form-box input{
+    width: 70%;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid rgba(7,7,25, 0.8);
+}
+.log-title{
+    color: rgba(7,7,25, 0.8);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.input-form-box input[type="submit"]{
+    background: #e2aaa1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
