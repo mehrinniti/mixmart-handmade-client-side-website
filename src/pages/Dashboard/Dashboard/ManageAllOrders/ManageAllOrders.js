@@ -7,7 +7,7 @@ const ManageAllOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/orders')
+        axios.get('https://sheltered-spire-26258.herokuapp.com/orders')
             .then(result => {
                 setOrders(result.data);
             })

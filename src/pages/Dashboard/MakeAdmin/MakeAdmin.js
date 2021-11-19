@@ -5,7 +5,7 @@ import axios from 'axios';
 const MakeAdmin = () => {
     const { register, handleSubmit, reset } = useForm()
     const MakeAdminHandle = data => {
-        axios.put('http://localhost:5000/users/admin', data)
+        axios.put('https://sheltered-spire-26258.herokuapp.com/users/admin', data)
             .then(result => {
                 if (result.data.modifiedCount) {
                     alert('Make Admin Successfully');

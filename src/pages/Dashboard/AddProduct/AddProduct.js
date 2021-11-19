@@ -6,7 +6,7 @@ import './AddProduct.css';
 const AddProduct = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        axios.post('http://localhost:5000/allProducts', data)
+        axios.post('https://sheltered-spire-26258.herokuapp.com/allProducts', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

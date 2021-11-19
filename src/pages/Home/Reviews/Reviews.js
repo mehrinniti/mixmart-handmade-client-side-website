@@ -8,7 +8,7 @@ const Reviews = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/review')
+        axios.get('https://sheltered-spire-26258.herokuapp.com/review')
             .then(result => {
                 setReviews(result.data);
             }).catch(error => {

@@ -1,0 +1,79 @@
+.discount-container{
+    background-image: url(../../../images/discount_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+    background-attachment: fixed !important;
+    
+}
+.discount{
+    padding-top: 100px;
+}
+.discount h1{
+    font-size: 40px;
+}
+.discount h2{
+    font-size: 30px;
+}
+.discount p{
+    font-size: 18px;
+}
+.discount-btn{
+    padding: 15px 20px;
+    color: #3a3d46;
+    border: 3px double #e2aaa1;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: -505px;
+    margin-top: 20px;
+    background-color: #f4f0ed;
+}
+.discount-btn:hover{
+    background-color: #e2aaa1;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+.discount-btn:focus{
+    background-color: #e2aaa1;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+.discount-details{
+    margin-left: -500px;
+    color: #3a3d46;
+}
+
+ /* media query responsive */
+  
+ @media (max-width:600px){
+     .discount{
+        margin-left: 450px;
+        
+     }
+     .discount h1{
+        font-size: 23px;
+    }
+    .discount h2{
+        font-size: 20px;
+    }
+    .discount p{
+        font-size: 14px;
+    }
+    .discount-btn{
+        margin-left: -20px;
+    }
+    .discount-btn:hover{
+        background-color: #e2aaa1;
+        color: white;
+        box-shadow: 2px 2px 5px gray;
+    }
+    .discount-btn:focus{
+        background-color: #e2aaa1;
+        color: white;
+        box-shadow: 2px 2px 5px gray;
+    }
+ }

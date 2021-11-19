@@ -15,13 +15,13 @@ const Purchases = () => {
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/${allProductId}`)
+        fetch(`https://sheltered-spire-26258.herokuapp.com/allProducts/${allProductId}`)
             .then(res => res.json())
             .then(data => setProduct(data));
     }, [allProductId]);
     const HandleOrderSubmit = data => {
         data.orderData = product;
-        axios.post('http://localhost:5000/orders', data)
+        axios.post('https://sheltered-spire-26258.herokuapp.com/orders', data)
             .then(result => {
                 if (result.data.insertedId) {
                     alert('Your Order Submitted Successfully');

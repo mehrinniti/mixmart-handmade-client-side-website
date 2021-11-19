@@ -9,7 +9,7 @@ const Product = ({ product }) => {
     const { name, img, description, price, _id } = product;
     return (
         <Grid item xs={12} sm={4} md={6}>
-            <Card sx={{ minWidth: 275, border: 0, borderRadius: 5, boxShadow: 0, padding: 2 }}>
+            <Card sx={{ minWidth: 275, border: 0, borderRadius: 5, boxShadow: 6, padding: 2 }}>
                 <CardMedia
                     component="img"
                     style={{ width: "auto", height: "200px", margin: "0 auto" }}

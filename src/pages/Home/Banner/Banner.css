@@ -22,9 +22,7 @@
  /* media query responsive */
   
  @media (max-width:600px){
-     .display-title{
-
-     }
+    
      .banner-title img{
          margin-left: 480px;
      }

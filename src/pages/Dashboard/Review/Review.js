@@ -9,7 +9,7 @@ const Review = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
         data.email = user.email;
-        axios.post('http://localhost:5000/review', data)
+        axios.post('https://sheltered-spire-26258.herokuapp.com/review', data)
             .then(result => {
                 if (result.data.insertedId) {
                     alert('Review Submitted Successfully');

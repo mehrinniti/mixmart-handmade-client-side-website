@@ -8,7 +8,7 @@ import Header from '../Shared/Header/Header';
 const ExploreAllProducts = () => {
     const [exploreAllProducts, setExploreAllProducts] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allproducts')
+        fetch('https://sheltered-spire-26258.herokuapp.com/allproducts')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
