@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
-    appId: process.env.REACT_APP_FIREBASE_APPID,
+    apiKey: "AIzaSyAooaCIVpyqaqftS1ohM22Dr1sg6BzvkYk",
+    authDomain: "mixmart-handmade-shop.firebaseapp.com",
+    projectId: "mixmart-handmade-shop",
+    storageBucket: "mixmart-handmade-shop.appspot.com",
+    messagingSenderId: "42048799997",
+    appId: "1:42048799997:web:b83ab84bca204b4b442a94"
 };
 
 export default firebaseConfig;

@@ -8,7 +8,8 @@ const MyOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        fetch(`https://sheltered-spire-26258.herokuapp.com/orders?email=${user.email}`)
+        const url = `https://sheltered-spire-26258.herokuapp.com/orders?email=${user.email}`
+        fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [user.email]);
